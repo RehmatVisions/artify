@@ -1,0 +1,29 @@
+{
+  "name": "artify-portfolio",
+  "version": "1.0.0",
+  "description": "Premium graphic designer portfolio - Artify",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "python -m http.server 8000",
+    "optimize-images": "echo 'Use TinyPNG or ImageOptim to compress images'"
+  },
+  "keywords": [
+    "graphic design",
+    "portfolio",
+    "designer",
+    "print design",
+    "branding"
+  ],
+  "author": "Artify",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/artify-portfolio.git"
+  }
+}
