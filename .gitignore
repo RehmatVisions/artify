@@ -18,12 +18,9 @@ build/
 Thumbs.db
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -38,3 +35,4 @@ Thumbs.db
 .npm
 .node-gyp/
 .yarn/
+config.bat
