@@ -5,6 +5,16 @@
   "env": {
     "VERCEL_ENV": "production"
   },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/i.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/:path*"
+    }
+  ],
   "images": {
     "domains": [
       "images.unsplash.com",
